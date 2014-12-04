@@ -1,0 +1,22 @@
+{
+  "name": "angular-simplify-module",
+  "version": "0.0.0",
+  "description": "minification tool for ng apps",
+  "main": "simplify.js",
+  "scripts": {
+    "test": "jasmine-node *.spec.js"
+  },
+  "keywords": [
+    "angular",
+    "build",
+    "minification"
+  ],
+  "author": "Brian Ford <btford@umich.edu>",
+  "license": "MIT",
+  "devDependencies": {
+    "jasmine-node": "^1.14.5"
+  },
+  "dependencies": {
+    "falafel": "^0.3.1"
+  }
+}
